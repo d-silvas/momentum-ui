@@ -61,7 +61,7 @@
     "test:tokens": "cd ./tokens && yarn test",
     "test:www": "cd ./www && yarn test:unit",
     "test:charts": "cd ./charts && yarn test",
-    "postinstall": "yarn build:utils"
+    "postinstall": "cd ."
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
